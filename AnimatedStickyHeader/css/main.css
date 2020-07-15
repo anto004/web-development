@@ -189,8 +189,24 @@ ol li {
 	outline: 0;
 }
 
-h1 {
-	font-family: Oswald, sans-serif;
-	font-size: 35px;
-	color: rgb(168, 73, 73);
+/* Navigation bar */
+header {
+	background: red;
+}
+
+.nav-wrapper {
+	max-width: 1200px;
+	background: black;
+	margin: 0 auto;
+	position: relative;
+	padding: 7px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 0 10px;
+	margin-bottom: 0;
 }
