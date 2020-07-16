@@ -229,3 +229,7 @@ nav ul li a:hover {
 body {
 	font-family: "Montserrat", sans-serif;
 }
+
+header .logo img {
+	max-width: 100px;
+}
