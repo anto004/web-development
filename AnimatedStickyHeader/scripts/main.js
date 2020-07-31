@@ -3,5 +3,9 @@
 $(document).ready(function () {
 	var $header = $("header");
 	var $sticky = $header.before($header.clone().addClass("sticky"));
-	console.log("hello from javascript");
+
+	$(window).on("scroll", function () {
+		var scrollFromTop = $(window).scrollTop();
+		$("body").toggleClass("scroll", scrollFromTop > 350);
+	});
 });

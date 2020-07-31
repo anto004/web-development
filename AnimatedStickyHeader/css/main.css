@@ -233,3 +233,17 @@ body {
 header .logo img {
 	max-width: 100px;
 }
+
+header.sticky {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background: green;
+	transform: translateY(-200%);
+	transition: 0.2s;
+}
+
+body.scroll header.sticky {
+	transform: translateY(0);
+}
