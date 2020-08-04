@@ -1,0 +1,26 @@
+{
+	"name": "web-development",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"prettier": "",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/anto004/web-development.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/anto004/web-development/issues"
+	},
+	"homepage": "https://github.com/anto004/web-development#readme",
+	"devDependencies": {
+		"eslint": "^7.6.0",
+		"eslint-config-prettier": "^6.11.0",
+		"eslint-plugin-prettier": "^3.1.4",
+		"prettier": "2.0.5"
+	}
+}
