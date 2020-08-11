@@ -247,3 +247,13 @@ header.sticky {
 body.scroll header.sticky {
 	transform: translateY(0);
 }
+
+.wrapper {
+	max-width: 1100px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.test {
+	background-color: lightsalmon;
+}
