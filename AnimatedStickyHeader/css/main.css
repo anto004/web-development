@@ -254,6 +254,71 @@ body.scroll header.sticky {
 	margin: 0 auto;
 }
 
+/* Parallax */
+.cover-main {
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url("../images/hero-bg.jpg") right bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 60vh;
+	min-height: 300px;
+}
+
+ul#scene {
+	margin-top: 100px;
+}
+
+ul#scene li.name {
+	width: 100%;
+	text-align: center;
+	font-size: 40px;
+	line-height: 45px;
+	text-transform: uppercase;
+	color: white;
+}
+
+ul#scene li.title {
+	width: 100%;
+	text-align: center;
+	font-size: 40px;
+	line-height: 45px;
+	color: white;
+	margin-top: 60px;
+}
+
+.btn {
+	width: 100%;
+	text-align: center;
+	margin-top: 100px;
+}
+
+.portfolio-btn,
+.contact-btn {
+	margin: 0 auto;
+	display: inline-block;
+	padding: 10px 20px;
+	border: 1px solid white;
+	background: transparent;
+	color: white;
+	text-decoration: none;
+	transition: 0.3s;
+}
+
+.portfolio-btn:hover,
+.contact-btn:hover {
+	background-color: white;
+	color: black;
+}
+
+.portfolio-btn {
+	margin-right: 30px;
+}
+
+.contact-btn {
+	margin-left: 30px;
+}
+
 .test {
-	background-color: lightsalmon;
+	background-color: coral;
+	width: 100px;
 }
