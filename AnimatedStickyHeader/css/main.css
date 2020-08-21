@@ -191,12 +191,13 @@ ol li {
 
 /* Navigation bar */
 header {
-	background: red;
+	background: transparent;
+	width: 100%;
+	position: relative;
 }
 
 .nav-wrapper {
 	max-width: 1200px;
-	background: black;
 	margin: 0 auto;
 	position: relative;
 	padding: 7px 0;
@@ -262,6 +263,7 @@ body.scroll header.sticky {
 	background-size: cover;
 	height: 60vh;
 	min-height: 300px;
+	max-height: 350px;
 }
 
 ul#scene {
