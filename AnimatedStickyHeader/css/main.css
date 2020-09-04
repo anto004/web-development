@@ -250,9 +250,10 @@ header.sticky {
 	top: 0;
 	left: 0;
 	right: 0;
-	background: green;
+	background: rgba(0, 0, 0, 0.85);
 	transform: translateY(-200%);
 	transition: 0.2s;
+	z-index: 5;
 }
 
 body.scroll header.sticky {
@@ -317,6 +318,7 @@ ul#scene li.title {
 	display: inline-block;
 	padding: 10px 20px;
 	border: 1px solid white;
+	border-radius: 25px;
 	background: transparent;
 	color: white;
 	text-decoration: none;
@@ -337,7 +339,45 @@ ul#scene li.title {
 	margin-left: 30px;
 }
 
-.test {
-	background-color: coral;
-	width: 100px;
+/*Parallax page styles end*/
+
+/*Masonry page styles start*/
+.masonry-grid {
+	position: relative;
 }
+
+.grid {
+	/*center the grid 0, auto*/
+	margin: 0 auto;
+}
+
+.grid-item {
+	width: 450px;
+}
+
+.tall-img {
+	height: 680px;
+}
+
+img {
+	max-width: 100%;
+}
+
+h2.sub-title {
+	position: relative;
+	display: block;
+	margin: 70px auto;
+	text-align: center;
+	font-size: 35px;
+	line-height: 40px;
+}
+
+h2.sub-title::after {
+	display: block;
+	height: 2px;
+	width: 100px;
+	content: "";
+	margin: 30px auto 0 auto;
+	background-color: black;
+}
+/*Masonry page styles end*/
