@@ -2,12 +2,19 @@
 <html>
 
 <head>
-	<title>Animated Sticky Header</title>
+	<title>Antonio's Portfolio Page</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+	<!--Fonts-->
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,600;1,300&display=swap"
+		rel="stylesheet">
+
+	<!--Css-->
+	<link href="css/reset.css" rel="stylesheet" />
+	<link href="css/helper.css" rel="stylesheet" />
 	<link href="css/main.css" rel="stylesheet" />
-	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet" />
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+
 
 	<!--Scripts-->
 	<script src="scripts/jquery-3.5.1.min.js"></script>
@@ -19,11 +26,11 @@
 </head>
 
 <body>
-	<section class="cover-main" id="home">
+	<section class="cover-header" id="home">
 		<header>
 			<nav class="nav-wrapper">
 				<div class="logo">
-					<a href="#"><img src="images/white-logo.png" class="logo" /></a>
+					<a href="#"><img src="images/logo.png" class="logo" /></a>
 				</div>
 				<ul class="menu">
 					<li><a href="#">Home</a></li>
@@ -86,18 +93,25 @@
 	<script>
 		// https://matthew.wagerfield.com/parallax/
 		let scene = document.getElementById("scene");
-		let parallax = new Parallax(scene);
+		let parallax = new Parallax(scene)
 
 		// Masonry Desandro
 		var grid = document.querySelector('.grid');
 		var msnry = new Masonry(grid, {
 			// options...
 			itemSelector: '.grid-item',
-			columnWidth: 120,
+			columnWidth: 150,
 			// Centered
 			fitWidth: true,
-			gutter: 0
-		});
+			gutter: 0,
+
+			originTop: true,
+			transitionDuration: "0.8s",
+			//stagger: 30,
+
+
+
+		})
 
 	</script>
 
