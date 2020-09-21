@@ -16,7 +16,7 @@ header {
 
 .cover-header {
 	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url("../images/hero-bg.jpg") right bottom;
+		url("../images/hero_bg.jpg") right bottom;
 	background-repeat: no-repeat;
 	background-size: cover;
 	/*height: 60vh;*/
@@ -195,7 +195,7 @@ img {
 .grid-item {
 	width: 450px;
 	transition: 0.3s;
-	margin-bottom: 30px;
+	/*margin-bottom: 30px;*/
 }
 
 .grid-item:hover {
