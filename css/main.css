@@ -195,7 +195,14 @@ img {
 .grid-item {
 	width: 450px;
 	transition: 0.3s;
+<<<<<<< HEAD
 	/*margin-bottom: 30px;*/
+||||||| 320bbc1
+	margin-bottom: 30px;
+=======
+	/*margin-bottom: 30px;*/
+	/*background-color: pink;*/
+>>>>>>> fde6edd27bbebd30eb0481984369036de8ece47b
 }
 
 .grid-item:hover {
