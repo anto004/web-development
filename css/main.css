@@ -1,3 +1,4 @@
+/*TODO: Reduce header size, sticky size*/
 * {
 	box-sizing: border-box;
 	outline: 0;
@@ -195,14 +196,7 @@ img {
 .grid-item {
 	width: 450px;
 	transition: 0.3s;
-<<<<<<< HEAD
 	/*margin-bottom: 30px;*/
-||||||| 320bbc1
-	margin-bottom: 30px;
-=======
-	/*margin-bottom: 30px;*/
-	/*background-color: pink;*/
->>>>>>> fde6edd27bbebd30eb0481984369036de8ece47b
 }
 
 .grid-item:hover {
@@ -215,3 +209,19 @@ img {
 }
 
 /*Masonry page styles end*/
+
+section.beating-heart {
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+		url("../images/hero_bg.jpg");
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-size: cover;
+	text-align: center;
+}
+
+svg.heart-watch {
+	position: relative;
+	fill: red;
+	width: 150px;
+	margin: 0, 50px;
+}
