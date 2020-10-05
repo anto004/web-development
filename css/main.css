@@ -217,11 +217,31 @@ section.beating-heart {
 	background-position: right bottom;
 	background-size: cover;
 	text-align: center;
+	height: 100vh;
+	padding: 10px 10px;
+	/*Set the whole section to white font*/
+	color: white;
 }
 
-svg.heart-watch {
+section.beating-heart h2 {
+	font-size: 30px;
+}
+
+section.beating-heart h2::after {
+	background: white;
+}
+
+section.beating-heart span {
+	color: white;
+	font-size: 100px;
+	line-height: 105px;
+	margin-bottom: 80px;
+}
+
+svg.fun {
 	position: relative;
-	fill: red;
+	fill: whitesmoke;
 	width: 150px;
-	margin: 0, 50px;
+	height: 100px;
+	background-color: tomato;
 }
